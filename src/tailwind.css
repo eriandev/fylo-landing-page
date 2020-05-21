@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+.attribution { 
+    @apply pb-4 text-sm text-white text-center;
+}
+
+.attribution span {
+    @apply block;
+}
+
+.attribution a { 
+    @apply text-accent-green;
+}
+
+.attribution a:hover { 
+    @apply text-accent-blue;
+}
+
+@screen sm {
+    .attribution span {
+        @apply inline;
+    }
+}
+
+@screen lg {
+    .attribution {
+        @apply mt-12;
+    }
+}
+
+@tailwind utilities;
