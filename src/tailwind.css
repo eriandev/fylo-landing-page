@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
 
 @tailwind base;
-
 @tailwind components;
 
 .attribution { 
-    @apply pb-4 text-sm text-white text-center;
+    @apply pb-4 text-sm text-center text-white;
 }
 
 .attribution span {
