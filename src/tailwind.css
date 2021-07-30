@@ -9,32 +9,32 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-.attribution { 
-    @apply pb-4 text-sm text-center text-white;
+.attribution {
+  @apply pb-4 text-sm text-center text-white;
 }
 
 .attribution span {
-    @apply block;
+  @apply block;
 }
 
-.attribution a { 
-    @apply text-accent-green;
+.attribution a {
+  @apply text-accent-green;
 }
 
-.attribution a:hover { 
-    @apply text-accent-blue;
+.attribution a:hover {
+  @apply text-accent-blue;
 }
 
 @screen sm {
-    .attribution span {
-        @apply inline;
-    }
+  .attribution span {
+    @apply inline;
+  }
 }
 
 @screen lg {
-    .attribution {
-        @apply mt-12;
-    }
+  .attribution {
+    @apply mt-12;
+  }
 }
 
 @tailwind utilities;
