@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
     purge: ['./**/*.html'],
@@ -8,12 +8,9 @@ module.exports = {
             padding: '2rem',
         },
         extend: {
-            screens: {
-                'xs': '360px'
-            },
             fontFamily: {
-                raleway: ['Raleway', ...defaultTheme.fontFamily.mono],
-                opensans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+                raleway: ['Raleway', ...fontFamily.mono],
+                opensans: ['Open Sans', ...fontFamily.sans],
             },
             fontSize: {
                 '2xs': '.55rem',
