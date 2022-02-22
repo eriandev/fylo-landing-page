@@ -1,7 +1,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ['./**/*.html'],
+  content: ['./**/*.html'],
   theme: {
     container: {
       center: true,
@@ -29,6 +29,4 @@ module.exports = {
       },
     },
   },
-  variants: {},
-  plugins: []
 }
